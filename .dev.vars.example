@@ -1,0 +1,6 @@
+# Local settings for `npm run dev` (add --env global for the global store).
+# Copy to .dev.vars (gitignored). In production these are set per Worker in
+# Cloudflare -> Worker -> Settings -> Variables and Secrets.
+SHOPIFY_STORE_DOMAIN=your-store.myshopify.com
+ALLOWED_ORIGINS=https://www.hoka.example
+SHOPIFY_ADMIN_TOKEN=shpat_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
